@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/AsioIOServicePool.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/AsioIOServicePool.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/CServer.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/CServer.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/CSession.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/CSession.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ChatGrpcClient.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ChatGrpcClient.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ChatServiceImpl.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ChatServiceImpl.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ConfigMgr.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/ConfigMgr.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/LogicSystem.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/LogicSystem.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MsgNode.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MsgNode.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MysqlDao.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MysqlDao.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MysqlMgr.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/MysqlMgr.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/RedisMgr.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/RedisMgr.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/StatusGrpcClient.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/StatusGrpcClient.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/UseMgr.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/UseMgr.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/main.cpp.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/main.cpp.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/message.grpc.pb.cc.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/message.grpc.pb.cc.o.d"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/message.pb.cc.o"
+  "CMakeFiles/main.dir/data/llfcchat/ChatServer2/src/message.pb.cc.o.d"
+  "main"
+  "main.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
