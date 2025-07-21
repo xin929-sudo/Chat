@@ -1,3 +1,0 @@
-/data/llfcchat/ChatServer2/build/CMakeFiles/main.dir
-/data/llfcchat/ChatServer2/build/CMakeFiles/edit_cache.dir
-/data/llfcchat/ChatServer2/build/CMakeFiles/rebuild_cache.dir
