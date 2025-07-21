@@ -1,3 +1,0 @@
-/data/llfcchat/StatusServer/build/CMakeFiles/main.dir
-/data/llfcchat/StatusServer/build/CMakeFiles/edit_cache.dir
-/data/llfcchat/StatusServer/build/CMakeFiles/rebuild_cache.dir
