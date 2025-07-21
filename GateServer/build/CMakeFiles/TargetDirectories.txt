@@ -1,3 +1,0 @@
-/data/llfcchat/GateServer/build/CMakeFiles/main.dir
-/data/llfcchat/GateServer/build/CMakeFiles/edit_cache.dir
-/data/llfcchat/GateServer/build/CMakeFiles/rebuild_cache.dir
