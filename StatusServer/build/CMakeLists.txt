@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10...3.25)
 
-project(YourProjectName)
+project(StatusServer)
 
 #添加hiredis头文件路径
 include_directories(/usr/local/include/hiredis)

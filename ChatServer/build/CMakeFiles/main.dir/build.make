@@ -73,225 +73,225 @@ CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o: CMakeF
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o: /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o -c /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.o -c /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/AsioIOServicePool.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/AsioIOServicePool.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o: /data/llfcchat/ChatServer/src/CServer.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o -c /data/llfcchat/ChatServer/src/CServer.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.o -c /data/llfcchat/ChatServer/src/CServer.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/CServer.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/CServer.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/CServer.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/CServer.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CServer.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o: /data/llfcchat/ChatServer/src/CSession.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o -c /data/llfcchat/ChatServer/src/CSession.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.o -c /data/llfcchat/ChatServer/src/CSession.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/CSession.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/CSession.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/CSession.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/CSession.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/CSession.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o: /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o -c /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.o -c /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ChatGrpcClient.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatGrpcClient.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o: /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o -c /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.o -c /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ChatServiceImpl.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ChatServiceImpl.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o: /data/llfcchat/ChatServer/src/ConfigMgr.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o -c /data/llfcchat/ChatServer/src/ConfigMgr.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.o -c /data/llfcchat/ChatServer/src/ConfigMgr.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ConfigMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/ConfigMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ConfigMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/ConfigMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/ConfigMgr.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o: /data/llfcchat/ChatServer/src/LogicSystem.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o -c /data/llfcchat/ChatServer/src/LogicSystem.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.o -c /data/llfcchat/ChatServer/src/LogicSystem.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/LogicSystem.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/LogicSystem.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/LogicSystem.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/LogicSystem.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/LogicSystem.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o: /data/llfcchat/ChatServer/src/MsgNode.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o -c /data/llfcchat/ChatServer/src/MsgNode.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.o -c /data/llfcchat/ChatServer/src/MsgNode.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MsgNode.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MsgNode.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MsgNode.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MsgNode.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MsgNode.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o: /data/llfcchat/ChatServer/src/MysqlDao.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o -c /data/llfcchat/ChatServer/src/MysqlDao.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.o -c /data/llfcchat/ChatServer/src/MysqlDao.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MysqlDao.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MysqlDao.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MysqlDao.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MysqlDao.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlDao.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o: /data/llfcchat/ChatServer/src/MysqlMgr.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o -c /data/llfcchat/ChatServer/src/MysqlMgr.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.o -c /data/llfcchat/ChatServer/src/MysqlMgr.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MysqlMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/MysqlMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MysqlMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/MysqlMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/MysqlMgr.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o: /data/llfcchat/ChatServer/src/RedisMgr.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o -c /data/llfcchat/ChatServer/src/RedisMgr.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.o -c /data/llfcchat/ChatServer/src/RedisMgr.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/RedisMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/RedisMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/RedisMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/RedisMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/RedisMgr.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o: /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o -c /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.o -c /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/StatusGrpcClient.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/StatusGrpcClient.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o: /data/llfcchat/ChatServer/src/UseMgr.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o -c /data/llfcchat/ChatServer/src/UseMgr.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.o -c /data/llfcchat/ChatServer/src/UseMgr.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/UseMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/UseMgr.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/UseMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/UseMgr.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/UseMgr.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o: /data/llfcchat/ChatServer/src/main.cpp
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o -c /data/llfcchat/ChatServer/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.o -c /data/llfcchat/ChatServer/src/main.cpp
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/main.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/main.cpp > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/main.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/main.cpp -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/main.cpp.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o: /data/llfcchat/ChatServer/src/message.grpc.pb.cc
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o -c /data/llfcchat/ChatServer/src/message.grpc.pb.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.o -c /data/llfcchat/ChatServer/src/message.grpc.pb.cc
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/message.grpc.pb.cc > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/message.grpc.pb.cc > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/message.grpc.pb.cc -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/message.grpc.pb.cc -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.grpc.pb.cc.s
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o: /data/llfcchat/ChatServer/src/message.pb.cc
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/llfcchat/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o -c /data/llfcchat/ChatServer/src/message.pb.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o -MF CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o.d -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.o -c /data/llfcchat/ChatServer/src/message.pb.cc
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/message.pb.cc > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/llfcchat/ChatServer/src/message.pb.cc > CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.i
 
 CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/message.pb.cc -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/llfcchat/ChatServer/src/message.pb.cc -o CMakeFiles/main.dir/data/llfcchat/ChatServer/src/message.pb.cc.s
 
 # Object files for target main
 main_OBJECTS = \
