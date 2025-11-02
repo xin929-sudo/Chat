@@ -160,6 +160,7 @@ std::string UrlDecode(const std::string& str)
     }
     return strTemp;
 }
+
 void HttpConnection::PreParseGetParam() {
     // 提取 URI  
     // std::cout << "hello world" << std::endl;
