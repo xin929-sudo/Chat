@@ -4,7 +4,6 @@
 #include"const.h"
 #include<hiredis/hiredis.h>
 #include"Singleton.h"
-
 class RedisConPool {
     public:
         RedisConPool(size_t poolSize, const char* host, int port, const char* pwd);
@@ -44,6 +43,8 @@ public:
     bool Del(const std::string &key);
     bool ExistsKey(const std::string &key);
     void Close();
+    std::string acquireLock(const std::string& lockName,int lockTimeout, int acquireTimeout);
+    bool releaseLock(const std::string& lockName,const std::string& identifier); 
 private:
     RedisMgr();
     std::unique_ptr<RedisConPool> _con_pool;

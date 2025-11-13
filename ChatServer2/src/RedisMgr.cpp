@@ -1,5 +1,6 @@
 #include"../inc/RedisMgr.h"
 #include "../inc/ConfigMgr.h"
+#include"../inc/DistLock.h"
 RedisConPool::RedisConPool(size_t poolSize, const char* host, int port, const char* pwd) : 
     _poolsize(poolSize),_host(host),_port(port),_b_stop(false)
 {
@@ -422,4 +423,34 @@ bool RedisMgr::ExistsKey(const std::string &key)
 void RedisMgr::Close()
 {
     _con_pool->Close();
+}
+
+// 添加分布式锁
+std::string RedisMgr::acquireLock(const std::string& lockName,int lockTimeout, int acquireTimeout){
+    
+    auto connect = _con_pool->getConnection();
+    if(connect == nullptr) {
+        return "";
+    }
+    Defer defer([&connect,this](){
+        _con_pool->returnConnection(connect);
+    });
+    return DistLock::Inst().acquireLock(connect, lockName, lockTimeout, acquireTimeout);
+}
+bool RedisMgr::releaseLock(const std::string& lockName,
+	const std::string& identifier) {
+	if (identifier.empty()) {
+		return true;
+	}
+	auto connect = _con_pool->getConnection();
+	if (connect == nullptr) {
+		return false;
+	}
+
+
+	Defer defer([&connect, this]() {
+		_con_pool->returnConnection(connect);
+		});
+
+	return DistLock::Inst().releaseLock(connect, lockName, identifier);
 }
