@@ -19,6 +19,7 @@ public:
     ~CServer();
     void ClearSession(std::string);
     std::shared_ptr<CSession> GetSession(std::string);
+    bool CheckValid(std::string);
 private:
     void HandleAccept(std::shared_ptr<CSession>, const boost::system::error_code & error);
     void StartAccept();

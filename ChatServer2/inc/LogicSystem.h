@@ -6,7 +6,6 @@
 #include <map>
 #include "const.h"
 #include"data.h"
-// #include"LogicSystem.h"
 class LogicNode;
 class CServer;
 class CSession;

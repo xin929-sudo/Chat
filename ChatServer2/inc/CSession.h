@@ -38,7 +38,7 @@ public:
 	std::shared_ptr<CSession> SharedSelf();
 	void AsyncReadBody(int length);
 	void AsyncReadHead(int total_len);
-	// void NotifyOffline(int uid);
+	void NotifyOffline(int uid);
 	// //判断心跳是否过期
 	// bool IsHeartbeatExpired(std::time_t& now);
 	// //更新心跳

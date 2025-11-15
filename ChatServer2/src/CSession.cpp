@@ -9,6 +9,7 @@
 #include "../inc/RedisMgr.h"
 #include "../inc/ConfigMgr.h"
 #include"../inc/CSession.h"
+#include"../inc/CServer.h"
 CSession::CSession(boost::asio::io_context& io_context, CServer* server):
 	_socket(io_context), _server(server), _b_close(false),_b_head_parse(false), _user_uid(0){
 	boost::uuids::uuid  a_uuid = boost::uuids::random_generator()();
@@ -105,10 +106,10 @@ void CSession::AsyncReadHead(int total_len)
 			}
 
 			// 判断连接无效
-			// if (!_server->CheckValid(_session_id)) {
-			// 	Close();
-			// 	return;
-			// }
+			if (!_server->CheckValid(_session_id)) {
+				Close();
+				return;
+			}
 
 			_recv_head_node->Clear();
 			memcpy(_recv_head_node->_data, _data, bytes_transfered);
@@ -191,6 +192,12 @@ void CSession::AsyncReadBody(int total_len)
                 _server->ClearSession(_session_id);
                 return;
             }
+						//判断连接无效
+			if (!_server->CheckValid(_session_id)) {
+				Close();
+				return;
+			}
+
             memcpy(_recv_msg_node->_data , _data , bytes_transfered);
             _recv_msg_node->_cur_len += bytes_transfered;
             _recv_msg_node->_data[_recv_msg_node->_total_len] = '\0';
@@ -243,30 +250,30 @@ void CSession::DealExceptionSession()
 	//加锁清除session
 	auto uid_str = std::to_string(_user_uid);
 	auto lock_key = LOCK_PREFIX + uid_str;
-	// auto identifier = RedisMgr::GetInstance()->acquireLock(lock_key, LOCK_TIME_OUT, ACQUIRE_TIME_OUT);
-	// Defer defer([identifier, lock_key, self, this]() {
-	// 	_server->ClearSession(_session_id);
-	// 	RedisMgr::GetInstance()->releaseLock(lock_key, identifier);
-	// 	});
+	auto identifier = RedisMgr::GetInstance()->acquireLock(lock_key, LOCK_TIME_OUT, ACQUIRE_TIME_OUT);
+	Defer defer([identifier, lock_key, self, this]() {
+		_server->ClearSession(_session_id);
+		RedisMgr::GetInstance()->releaseLock(lock_key, identifier);
+		});
 
-	// if (identifier.empty()) {
-	// 	return;
-	// }
-	// std::string redis_session_id = "";
-	// auto bsuccess = RedisMgr::GetInstance()->Get(USER_SESSION_PREFIX + uid_str, redis_session_id);
-	// if (!bsuccess) {
-	// 	return;
-	// }
+	if (identifier.empty()) {
+		return;
+	}
+	std::string redis_session_id = "";
+	auto bsuccess = RedisMgr::GetInstance()->Get(USER_SESSION_PREFIX + uid_str, redis_session_id);
+	if (!bsuccess) {
+		return;
+	}
 
-	// if (redis_session_id != _session_id) {
-	// 	//说明有客户在其他服务器异地登录了
-	// 	return;
-	// }
+	if (redis_session_id != _session_id) {
+		//说明有客户在其他服务器异地登录了
+		return;
+	}
 
-	// RedisMgr::GetInstance()->Del(USER_SESSION_PREFIX + uid_str);
+	RedisMgr::GetInstance()->Del(USER_SESSION_PREFIX + uid_str);
 	//清除用户登录信息
 	RedisMgr::GetInstance()->Del(USERIPPREFIX + uid_str);
-	RedisMgr::GetInstance()->Del(USER_BASE_INFO + uid_str);
+	// RedisMgr::GetInstance()->Del(USER_BASE_INFO + uid_str);
 	// auto server_name = ConfigMgr::Inst().GetValue("SelfServer", "Name");
 	// auto rd_res = RedisMgr::GetInstance()->HGet(LOGIN_COUNT, server_name);
 	// int count = 0;
